@@ -37,10 +37,10 @@ a {
 }
 
 :root {
-  --accent: #6a9bd8;
+  --accent: #00040a;
   --overlay: rgba(40, 40, 40, 0.65);
   --secondary: #858585;
-  --bg: #ebf5fc;
+  --bg: #ffffff;
   --main-shadow: -2px -2px 5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.1);
   --inset-shadow: inset -2px -2px 5px #ffffff,
     inset 3px 3px 5px rgba(0, 0, 0, 0.1);

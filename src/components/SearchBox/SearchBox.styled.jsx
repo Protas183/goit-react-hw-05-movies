@@ -15,11 +15,10 @@ export const Input = styled.input`
   color: var(--secondary);
 
   box-shadow: var(--inset-shadow);
-  border: none;
+  border: 1px solid black;
 
   :focus {
-    outline: 3px solid var(--bg);
-    box-shadow: 0px 0px 0px 6px var(--accent);
+    outline: 3px solid black;
   }
 `;
 
@@ -29,20 +28,20 @@ export const Button = styled.button`
   font-weight: 700;
   font-size: 22px;
 
-  border-radius: 4px;
+  border-radius: 5px;
 
-  border: none;
-  color: var(--accent);
-  background-color: var(--bg);
-  box-shadow: var(--main-shadow);
+  border: 1 px solid black;
+  color: black;
+  background-color: white;
+
 
   transition: all 200ms ease-in-out;
   cursor: pointer;
 
   :hover,
   :focus-visible {
-    color: var(--bg);
-    background-color: var(--accent);
+    color: white;
+    background-color: black;
   }
 
   :focus {

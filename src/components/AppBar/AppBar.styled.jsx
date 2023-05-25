@@ -2,8 +2,8 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
 export const Header = styled.header`
-  background-color: var(--bg);
-  box-shadow: var(--main-shadow);
+  background-color: white;
+  box-shadow: 10px 5px 5px  black;
 `;
 
 export const Container = styled.div`
